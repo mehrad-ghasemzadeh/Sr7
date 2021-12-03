@@ -3,7 +3,7 @@ import pyfiglet
 from colorama import Fore,init
 init()
 import os 
-os.system("cls")
+os.system("cls" or "clear")
 
 banner=pyfiglet.figlet_format("Sr7",font="big")
 print(Fore.GREEN+banner)
